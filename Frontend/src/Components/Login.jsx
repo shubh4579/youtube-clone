@@ -7,7 +7,7 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Box from "@mui/material/Box";
 import LinearProgress from "@mui/material/LinearProgress";
-import { set } from "mongoose";
+
 function Login({ setLoginModal }) {
   const [loginField, setLoginField] = useState({ userName: "", password: "" });
   const [progressBar, setProgressBar] = useState(false);
